@@ -2,18 +2,20 @@ package com.example.lsj.mvpdemo.presenter;
 
 import com.example.lsj.mvpdemo.base.BasePresenter;
 import com.example.lsj.mvpdemo.bean.ArticleListBean;
+import com.example.lsj.mvpdemo.contract.SingleInterfaceContract;
 import com.example.lsj.mvpdemo.interfaces.Callback;
 import com.example.lsj.mvpdemo.model.ISingleInterfaceModel;
 import com.example.lsj.mvpdemo.model.SingleInterfaceModel;
 import com.example.lsj.mvpdemo.utils.LP;
-import com.example.lsj.mvpdemo.view.SingleInterfaceIView;
 
 /**
  * @Description: Presenter层代码
  * @Author: lishengjiejob@163.com
  * @Time: 2018/11/22 15:14
  */
-public class SingleInterfacePresenter extends BasePresenter<SingleInterfaceIView> implements ISingleInterfacePresenter {
+public class SingleInterfacePresenter extends BasePresenter<SingleInterfaceContract.View>
+        implements SingleInterfaceContract.Presenter {
+
     private final ISingleInterfaceModel singleInterfaceModel;
 
     public SingleInterfacePresenter() {

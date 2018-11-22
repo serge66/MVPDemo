@@ -8,6 +8,7 @@ import android.widget.Toast;
 import com.example.lsj.mvpdemo.R;
 import com.example.lsj.mvpdemo.base.BaseMVPActivity;
 import com.example.lsj.mvpdemo.bean.ArticleListBean;
+import com.example.lsj.mvpdemo.contract.SingleInterfaceContract;
 import com.example.lsj.mvpdemo.presenter.SingleInterfacePresenter;
 
 /**
@@ -15,7 +16,8 @@ import com.example.lsj.mvpdemo.presenter.SingleInterfacePresenter;
  * @Author: lishengjiejob@163.com
  * @Time: 2018/11/22 09:36
  */
-public class SingleInterfaceActivity extends BaseMVPActivity<SingleInterfacePresenter> implements SingleInterfaceIView {
+public class SingleInterfaceActivity extends BaseMVPActivity<SingleInterfacePresenter>
+        implements SingleInterfaceContract.View {
 
     private Button button;
     private TextView textView;
