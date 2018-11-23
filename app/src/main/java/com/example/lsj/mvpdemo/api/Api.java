@@ -1,6 +1,7 @@
 package com.example.lsj.mvpdemo.api;
 
 import com.example.lsj.mvpdemo.bean.ArticleListBean;
+import com.example.lsj.mvpdemo.bean.BannerBean;
 
 import retrofit2.http.GET;
 import retrofit2.http.Path;
@@ -16,5 +17,13 @@ public interface Api {
      */
     @GET("article/list/{curPage}/json")
     Observable<ArticleListBean> getData(@Path("curPage") int curPage);
+
+    /**
+     * 获取首页banner数据
+     *
+     * @return
+     */
+    @GET("banner/json")
+    Observable<BannerBean> getBanner();
 
 }
