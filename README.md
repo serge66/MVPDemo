@@ -902,3 +902,11 @@ public class MultipleInterfaceActivity extends BaseMVPActivity<MultiplePresenter
 <<MVVM架构从入门到精通-真枪实弹>> 敬请期待~~~
 
 [原创文章，来自于Vitamio(http://blog.csdn.net/vitamio)，转载请注明出处。](http://blog.csdn.net/vitamio)
+
+文章同步发布于:
+
+CSND https://blog.csdn.net/vitamio/article/details/84069427
+
+掘金 https://juejin.im/post/5bf787d5e51d450c487d06dd
+
+简书 https://www.jianshu.com/p/76c098652dba
