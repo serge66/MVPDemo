@@ -688,7 +688,7 @@ public class SingleInterfaceActivity extends BaseMVPActivity<SingleInterfacePres
 ```
 代码写到这里,笔者先把这些代码提交到github([https://github.com/serge66/MVPDemo](https://github.com/serge66/MVPDemo)),github上会有一次提交记录,如果想看此时的代码,可以根据提交记录"*第三次修改*"克隆此时的代码.
 
-##### 5. 单页面多网络请求
+##### 5. 单页面多网络请求(P层复用)
 
 上面的MVP封装只适用于单页面一个网络请求的情况,当一个界面有两个网络请求时,此封装已不适合.为此,我们再次新建一个MultipleInterfaceActivity来进行说明.XML中布局是两个按钮两个Textview,点击则可以进行网络请求.
 
@@ -905,7 +905,7 @@ public class MultipleInterfaceActivity extends BaseMVPActivity<MultiplePresenter
 
 文章同步发布于:
 
-CSND https://blog.csdn.net/vitamio/article/details/84069427
+CSDN https://blog.csdn.net/vitamio/article/details/84069427
 
 掘金 https://juejin.im/post/5bf787d5e51d450c487d06dd
 
